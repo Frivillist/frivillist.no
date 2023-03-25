@@ -79,6 +79,7 @@
       }
 
       .button {
+        box-sizing: border-box;
         border: 1px solid gray;
         background-color: white;
         color: black;
@@ -87,6 +88,8 @@
         text-decoration: none;
         display: inline-block;
         border-radius: 20px;
+        text-align: center;
+        margin-bottom: 0.2em;
       }
 
       .button:hover {
@@ -108,6 +111,10 @@
         box-sizing: border-box;
         padding: 10px;
         flex: 0 0 33.3333%;
+      }
+
+      .approve {
+        width: 100%;
       }
 
       @media only screen and (max-width: 860px) {
@@ -254,11 +261,10 @@
         Alle mennesker har rett til å organisere seg eller ikke. Ingen skal
         tvinges inn i en organisasjon mot sin vilje."
       </p>
-      <br />
       <p>
         <a
           href="mailto:innmelding@frivillist.no?subject=Innmelding&body=Hei,%0D%0A%0D%0AJeg erklærer at jeg godtar rettighetserklæringen og ønsker å bli medlem i Den norske frivillistforening (DNFF).%0D%0A%0D%0ANavn:%0D%0AAddresse:%0D%0APostnr./-sted:%0D%0AFødselsdato:%0D%0A%0D%0A%0D%0A"
-          class="button"
+          class="button approve"
           >Jeg godtar rettighetserklæringen og vil bli medlem (e-post)</a
         >
       </p>
@@ -286,11 +292,12 @@
     <img class="illustration" src="assets/background-2048.jpg" />
 
     <p>
+      DEN NORSKE FRIVILLISTFORENING - 
       <a
         href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=931099868"
         target="_blank"
-        >DEN NORSKE FRIVILLISTFORENING / REGNR: 931 099 868</a
-      >
+        >REGNR: 931 099 868</a
+      > - <a href="mailto:post@frivillist.no">post@frivillist.no</a>
     </p>
   </body>
 </html>
